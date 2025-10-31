@@ -1,14 +1,14 @@
 import { GachaItem } from '@/types/gacha';
 
 export const GACHA_ITEMS: GachaItem[] = [
-  // SSR (1%) - Ultra Rare Legendary Items
+  // SSR (5%) - Ultra Rare Legendary Items
   {
     id: 'ssr-1',
     name: 'Golden Pumpkin King',
     rarity: 'SSR',
     emoji: '🎃',
     description: 'The legendary ruler of Halloween night!',
-    dropRate: 0.15,
+    dropRate: 0.7,
   },
   {
     id: 'ssr-2',
@@ -16,7 +16,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SSR',
     emoji: '💀',
     description: 'The most feared spirit of the underworld',
-    dropRate: 0.15,
+    dropRate: 0.7,
   },
   {
     id: 'ssr-3',
@@ -24,7 +24,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SSR',
     emoji: '🧙‍♂️',
     description: 'Master of death and resurrection magic',
-    dropRate: 0.15,
+    dropRate: 0.65,
   },
   {
     id: 'ssr-4',
@@ -32,7 +32,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SSR',
     emoji: '👹',
     description: 'The supreme ruler of the dark realm',
-    dropRate: 0.12,
+    dropRate: 0.6,
   },
   {
     id: 'ssr-5',
@@ -40,7 +40,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SSR',
     emoji: '💎',
     description: 'An ancient artifact of immense power',
-    dropRate: 0.12,
+    dropRate: 0.6,
   },
   {
     id: 'ssr-6',
@@ -48,7 +48,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SSR',
     emoji: '🌙',
     description: 'Divine being that governs the Halloween moon',
-    dropRate: 0.11,
+    dropRate: 0.55,
   },
   {
     id: 'ssr-7',
@@ -56,7 +56,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SSR',
     emoji: '🐉',
     description: 'A mystical dragon from the shadow realm',
-    dropRate: 0.1,
+    dropRate: 0.55,
   },
   {
     id: 'ssr-8',
@@ -64,17 +64,17 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SSR',
     emoji: '👑',
     description: 'A crown that grants eternal darkness',
-    dropRate: 0.1,
+    dropRate: 0.58,
   },
 
-  // SR (5%) - Super Rare Items
+  // SR (15%) - Super Rare Items
   {
     id: 'sr-1',
     name: 'Vampire Count',
     rarity: 'SR',
     emoji: '🧛',
     description: 'A noble vampire from ancient times',
-    dropRate: 0.5,
+    dropRate: 1.4,
   },
   {
     id: 'sr-2',
@@ -82,7 +82,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🧙',
     description: 'Master of dark magic and potions',
-    dropRate: 0.5,
+    dropRate: 1.4,
   },
   {
     id: 'sr-3',
@@ -90,7 +90,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🏰',
     description: 'A mysterious castle full of secrets',
-    dropRate: 0.5,
+    dropRate: 1.35,
   },
   {
     id: 'sr-4',
@@ -98,7 +98,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🐺',
     description: 'Leader of the werewolf pack',
-    dropRate: 0.5,
+    dropRate: 1.35,
   },
   {
     id: 'sr-5',
@@ -106,7 +106,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🧟‍♂️',
     description: 'A creature brought to life by lightning',
-    dropRate: 0.45,
+    dropRate: 1.3,
   },
   {
     id: 'sr-6',
@@ -114,7 +114,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🧟',
     description: 'Ancient pharaoh wrapped in cursed bandages',
-    dropRate: 0.45,
+    dropRate: 1.3,
   },
   {
     id: 'sr-7',
@@ -122,7 +122,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🧙‍♂️',
     description: 'Wielder of forbidden spells',
-    dropRate: 0.4,
+    dropRate: 1.2,
   },
   {
     id: 'sr-8',
@@ -130,7 +130,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '👻',
     description: 'A wailing spirit that foretells doom',
-    dropRate: 0.4,
+    dropRate: 1.2,
   },
   {
     id: 'sr-9',
@@ -138,7 +138,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🗿',
     description: 'Stone protector of ancient secrets',
-    dropRate: 0.35,
+    dropRate: 1.1,
   },
   {
     id: 'sr-10',
@@ -146,7 +146,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🎃',
     description: 'Rider of the night seeking his lost head',
-    dropRate: 0.35,
+    dropRate: 1.1,
   },
   {
     id: 'sr-11',
@@ -154,7 +154,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🌕',
     description: 'A rare celestial phenomenon',
-    dropRate: 0.3,
+    dropRate: 1.0,
   },
   {
     id: 'sr-12',
@@ -162,17 +162,17 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'SR',
     emoji: '🪞',
     description: 'Shows visions of the underworld',
-    dropRate: 0.3,
+    dropRate: 1.0,
   },
 
-  // R (14%) - Rare Items
+  // R (30%) - Rare Items
   {
     id: 'r-1',
     name: 'Spooky Ghost',
     rarity: 'R',
     emoji: '👻',
     description: 'A friendly but mischievous spirit',
-    dropRate: 1.2,
+    dropRate: 2.2,
   },
   {
     id: 'r-2',
@@ -180,7 +180,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🐈‍⬛',
     description: 'A mysterious feline companion',
-    dropRate: 1.2,
+    dropRate: 2.2,
   },
   {
     id: 'r-3',
@@ -188,7 +188,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🎃',
     description: 'A carved pumpkin glowing in the night',
-    dropRate: 1.2,
+    dropRate: 2.2,
   },
   {
     id: 'r-4',
@@ -196,7 +196,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🧟',
     description: 'Risen from the grave',
-    dropRate: 1.0,
+    dropRate: 2.1,
   },
   {
     id: 'r-5',
@@ -204,7 +204,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🧪',
     description: 'Bubbling with mysterious potions',
-    dropRate: 1.0,
+    dropRate: 2.1,
   },
   {
     id: 'r-6',
@@ -212,7 +212,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🧹',
     description: 'Enchanted flying broomstick',
-    dropRate: 1.0,
+    dropRate: 2.1,
   },
   {
     id: 'r-7',
@@ -220,7 +220,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '💀',
     description: 'Undead fighter from the crypt',
-    dropRate: 0.9,
+    dropRate: 2.0,
   },
   {
     id: 'r-8',
@@ -228,7 +228,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🪆',
     description: 'A doll with a soul trapped inside',
-    dropRate: 0.9,
+    dropRate: 2.0,
   },
   {
     id: 'r-9',
@@ -236,7 +236,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🍎',
     description: 'One bite brings eternal sleep',
-    dropRate: 0.9,
+    dropRate: 2.0,
   },
   {
     id: 'r-10',
@@ -244,7 +244,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🔮',
     description: 'Reveals glimpses of the future',
-    dropRate: 0.8,
+    dropRate: 1.9,
   },
   {
     id: 'r-11',
@@ -252,7 +252,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '⚰️',
     description: 'Resting place of vampires',
-    dropRate: 0.8,
+    dropRate: 1.9,
   },
   {
     id: 'r-12',
@@ -260,7 +260,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🦉',
     description: 'Watches silently from the shadows',
-    dropRate: 0.8,
+    dropRate: 1.9,
   },
   {
     id: 'r-13',
@@ -268,7 +268,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🎩',
     description: 'Grants basic magical abilities',
-    dropRate: 0.7,
+    dropRate: 1.8,
   },
   {
     id: 'r-14',
@@ -276,7 +276,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '🕯️',
     description: 'Eternal flames light the darkness',
-    dropRate: 0.7,
+    dropRate: 1.8,
   },
   {
     id: 'r-15',
@@ -284,17 +284,17 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'R',
     emoji: '📖',
     description: 'Ancient tome of magical incantations',
-    dropRate: 0.7,
+    dropRate: 2.0,
   },
 
-  // N (80%) - Common Items
+  // N (50%) - Common Items
   {
     id: 'n-1',
     name: 'Candy Corn',
     rarity: 'N',
     emoji: '🍬',
     description: 'Classic Halloween candy',
-    dropRate: 6.5,
+    dropRate: 3.2,
   },
   {
     id: 'n-2',
@@ -302,7 +302,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🍭',
     description: 'Sweet treat for trick-or-treaters',
-    dropRate: 6.5,
+    dropRate: 3.2,
   },
   {
     id: 'n-3',
@@ -310,7 +310,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🕸️',
     description: 'Spooky decoration',
-    dropRate: 6.0,
+    dropRate: 3.0,
   },
   {
     id: 'n-4',
@@ -318,7 +318,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🦇',
     description: 'A creature of the night',
-    dropRate: 6.0,
+    dropRate: 3.0,
   },
   {
     id: 'n-5',
@@ -326,7 +326,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🕷️',
     description: 'Eight-legged creepy crawler',
-    dropRate: 5.5,
+    dropRate: 2.9,
   },
   {
     id: 'n-6',
@@ -334,7 +334,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🍫',
     description: 'Delicious Halloween treat',
-    dropRate: 5.5,
+    dropRate: 2.9,
   },
   {
     id: 'n-7',
@@ -342,7 +342,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🐻',
     description: 'Chewy candy bears',
-    dropRate: 5.0,
+    dropRate: 2.8,
   },
   {
     id: 'n-8',
@@ -350,7 +350,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🎃',
     description: 'A regular Halloween pumpkin',
-    dropRate: 5.0,
+    dropRate: 2.8,
   },
   {
     id: 'n-9',
@@ -358,7 +358,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🕯️',
     description: 'Small decorative candle',
-    dropRate: 4.5,
+    dropRate: 2.7,
   },
   {
     id: 'n-10',
@@ -366,7 +366,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🎒',
     description: 'Bag for collecting candy',
-    dropRate: 4.5,
+    dropRate: 2.7,
   },
   {
     id: 'n-11',
@@ -374,7 +374,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🎈',
     description: 'Halloween party decoration',
-    dropRate: 4.0,
+    dropRate: 2.8,
   },
   {
     id: 'n-12',
@@ -382,7 +382,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🧹',
     description: 'Regular cleaning broom',
-    dropRate: 4.0,
+    dropRate: 2.8,
   },
   {
     id: 'n-13',
@@ -390,7 +390,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🍂',
     description: 'Fallen leaf in Halloween colors',
-    dropRate: 3.5,
+    dropRate: 2.9,
   },
   {
     id: 'n-14',
@@ -398,7 +398,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🎭',
     description: 'Simple costume mask',
-    dropRate: 3.5,
+    dropRate: 2.9,
   },
   {
     id: 'n-15',
@@ -406,7 +406,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🌽',
     description: 'Harvest season decoration',
-    dropRate: 3.0,
+    dropRate: 2.8,
   },
   {
     id: 'n-16',
@@ -414,7 +414,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '🎊',
     description: 'Festive party decoration',
-    dropRate: 3.0,
+    dropRate: 2.8,
   },
   {
     id: 'n-17',
@@ -422,7 +422,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '👻',
     description: 'Cute ghost decoration',
-    dropRate: 2.5,
+    dropRate: 2.7,
   },
   {
     id: 'n-18',
@@ -430,7 +430,7 @@ export const GACHA_ITEMS: GachaItem[] = [
     rarity: 'N',
     emoji: '📄',
     description: 'Empty candy wrapper',
-    dropRate: 2.5,
+    dropRate: 2.6,
   },
 ];
 

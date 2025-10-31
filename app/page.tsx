@@ -130,19 +130,19 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div>
                 <div className="text-xl font-bold text-yellow-300">SSR</div>
-                <div className="text-sm text-gray-400">1%</div>
-              </div>
-              <div>
-                <div className="text-xl font-bold text-purple-300">SR</div>
                 <div className="text-sm text-gray-400">5%</div>
               </div>
               <div>
+                <div className="text-xl font-bold text-purple-300">SR</div>
+                <div className="text-sm text-gray-400">15%</div>
+              </div>
+              <div>
                 <div className="text-xl font-bold text-blue-300">R</div>
-                <div className="text-sm text-gray-400">14%</div>
+                <div className="text-sm text-gray-400">30%</div>
               </div>
               <div>
                 <div className="text-xl font-bold text-gray-300">N</div>
-                <div className="text-sm text-gray-400">80%</div>
+                <div className="text-sm text-gray-400">50%</div>
               </div>
             </div>
           </div>
